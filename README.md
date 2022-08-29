@@ -74,7 +74,7 @@ int main(void)
    }
 }
 ```
-2. ### Compile and run
+3. ### Compile and run
 ```sh
 $ gcc get_next_line.c get_next_line_utils.c main.c -D BUFFER_SIZE=1024
 $ ./a.out
