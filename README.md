@@ -53,7 +53,7 @@ int main(void)
   fd2 = open("odd_num.txt", O_RDONLY);
   fd3 = open("even_num.txt", O_RDONLY);
   
-  cnt = 5;
+  cnt = 4;
   while (cnt--)
   {
     line = get_next_line(fd2);
@@ -95,5 +95,5 @@ You should get a result like below
 • The program will be compiled in this way:
 7
 gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c.
-(null)(null)(null)(null)(null)(null)
+(null)(null)
 ```
