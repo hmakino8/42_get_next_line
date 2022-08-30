@@ -13,28 +13,28 @@ char	*get_next_line(int fd);
 write a function which returns a line read from a file descriptor, without the newline.
 
 ## How it works
-1. ### prepare the text in a file.
-- gnl_instructions.txt (here we use these files)
+1. ### prepare text files like below.
+- gnl_instructions.txt
 ```
-• Calling your function get_next_line in a loop.↩️
-• This function should return the line that has just been read.↩️
-• If there is nothing　else to read or if an error has occurred it should return NULL↩️
-• libft is not allowed for this project.↩️
-• Your program must compile with the flag -D BUFFER_SIZE=xx.↩️
-• The program will be compiled in this way:↩️
-gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c.↩️
+• Calling your function get_next_line in a loop.
+• This function should return the line that has just been read.
+• If there is nothing　else to read or if an error has occurred it should return NULL
+• libft is not allowed for this project.
+• Your program must compile with the flag -D BUFFER_SIZE=xx.
+• The program will be compiled in this way:
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c.
 ```
 - odd_num.txt
 ```
-1↩️
-3↩️
-5↩️
+1
+3
+5
 ```
 - even_num.txt
 ```
-2↩️
-4↩️
-6↩️
+2
+4
+6
 ```
 2. ### Write a main function like below　
 - main.c
